@@ -11,6 +11,8 @@ gem "puma", "~> 5.0"
 
 # use active record
 gem "sinatra-activerecord"
+#needed to add this to be able to run grade
+gem "http"
 
 group :development do
   gem "better_errors"
