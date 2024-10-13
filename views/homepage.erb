@@ -1,9 +1,8 @@
-
-
+<h1>Currency pairs</h1>
 <ul>
   <% @currency_names.each do |abv_name, full_name| %>
     <li>
-      <%= abv_name %>, <%= full_name %>
+      <a href="/<%= abv_name %>">Convert 1 <%= abv_name %>...</a>
     </li>
   <% end %>
 </ul>
